@@ -1,0 +1,29 @@
+body{
+    background-color:pink;
+}
+
+.header{
+    background-color:beige;
+    display: flex;
+}
+
+.iconHolder{
+    background-color: blueviolet;
+    margin: 10px;
+    width: 100px;
+    padding: 20px;
+}
+
+.navBar{
+    background-color:grey;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.content{
+    background-color:springgreen;
+    margin: 10px;
+    max-width: 90%;
+    padding: 20%;
+}

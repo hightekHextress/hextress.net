@@ -53,30 +53,35 @@ body{
     font-style: italic;
     max-width: 100%;
     height: auto;
-    margin: auto;
+    margin: 5%;
     padding: 3px;
     margin-right: 15px;
     margin-left: 20px;
-    bottom: 80px;
 }
 
 .column{
-    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
     width: 33%;
     background-color:cadetblue;
 }
 
 .pfp{
     position: relative;
+    display: flex;
     border-radius: 50%;
     border-style: solid; 
     border-color:blueviolet;
     border-width: 2px;
+    margin-top: 5%;
     max-width: 100%;
     height: auto;
 }
 
 .quote{
+    display: inline-block;
     text-align:center;
     position: relative;
     border-style: solid;
@@ -86,7 +91,7 @@ body{
     font-style: italic;
     max-width: 100%;
     height: auto;
-    margin: auto;
+    margin: 5%;
     padding: 3px;
     margin-right: 15px;
     margin-left: 20px;
@@ -101,6 +106,8 @@ body{
 }
 
 .col3box{
+    display: flex;
+    align-items: center;
     background-color: tomato;
     padding: 1px;
     margin:10px;
